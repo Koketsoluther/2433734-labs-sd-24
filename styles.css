@@ -1,0 +1,117 @@
+
+  header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+    position: sticky;
+    top: 0;
+    background-color: rgb(43, 42, 42);
+  }
+
+  figcaption{
+    text-align: center;
+  }
+
+  h3{
+    text-align: center;
+  }
+
+
+  li,a,p{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: aliceblue;
+    text-decoration: none;
+  }
+
+
+  #nav-title{
+    font-family: sans-serif;
+    color: aliceblue;
+  }
+  .navigation{
+    list-style: none;
+  }
+
+  .navigation li{
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .navigation li a{
+    transition: all 0.3s ease 0s;
+  
+  }
+
+  .navigation li a:hover{
+    color: cyan;
+  
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 7.5%;
+    margin-top: 7%;
+    background-color: rgb(43, 42, 42);
+
+  }
+
+  #motive{
+    text-align: center;
+    color: black;
+  }
+
+  .about-us{
+    text-align: center;
+  }
+  .services_title{
+    text-align: center;
+    margin-top: 4%;
+  }
+
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 400px;
+  }
+
+  .services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50%;
+
+  }
+
+  .web_development{
+    border: 1px solid black;
+
+  }
+  .services img{
+    display: inline-block;
+  }
+
+  .webdev{
+    border: 1px solid black;
+  }
+
+  .graphic_des{
+    border: 1px solid black;
+  }
+
+  figure h3,figcaption{
+    text-align: center;
+  }
+
+  
+
+
+
